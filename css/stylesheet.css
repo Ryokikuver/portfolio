@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+.clearfix::after {
+    content : "";
+    display : block;
+	clear : both;    
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+header h1 {
+	padding-top: 20px;
+	margin: 0;
+}
+
+header nav {
+	width: 30%;
+	display: inline-block;
+}
+
+header ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+header ul li {
+	float: left;
+	width: 27%;
+	margin: 0 3%;
+}
+
+header ul li:hover {
+	opacity: 0.5;
+}
+
+header ul li a {
+	color: #fff;
+}
+
+.inner {
+	padding: 0 5%;
+}
+
+#about p {
+	padding-left: 5%;
+}
+#about h3 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.challenges {
+	display: flex;
+	}
+
+.textbox {
+	width: 45%;
+	padding: 5%;
+}
+.imgbox {
+	width: 45%;
+	padding: 5%;
+}
+
+.imgbox img {
+	border-radius: 50%
+}
+
+.workbox {
+	display: flex;
+}
+
+.work {
+	width: 45%;
+	padding: 0 2.5%;
+}
+.work span {
+	font-weight: bold;
+}
+.work a:hover {
+	opacity: 0.5;
+}
+
+#goto_top {
+    position: fixed;
+    right: 15%;
+    bottom: 5%;
+}
+
+#goto_top a {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: #000;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    font-weight: bold;
+	opacity: 0.7;
+}       
+
+footer {
+	text-align: center;
+	height: 50px;
+	padding-top: 100px;
+}
